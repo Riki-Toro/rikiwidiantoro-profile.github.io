@@ -2,8 +2,14 @@
     text-shadow: 1px 1px 3px rgba(0,0,0,.5);
 }
 
+.about img {
+    border-radius: 20%;
+    /* margin-left: 150px; */
+    margin-top: 20px;
+}
 .about-p {
     text-align: justify;
+    font-size: 16px;
 }
 
 .parallax-container {
