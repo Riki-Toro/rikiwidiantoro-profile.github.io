@@ -26,6 +26,14 @@
     filter: drop-shadow(1px 1px 3px rgba(0,0,0,.5));
 }
 
+.services .card-panel li {
+    margin-bottom: 28px;
+}
+.services .card-panel p {
+    margin-bottom: -8px;
+    text-align: justify;
+}
+
 .contact p {
     text-align: justify;
 }
