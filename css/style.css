@@ -38,6 +38,10 @@
     text-align: justify;
 }
 
+.contact hr {
+    background-color: white;
+}
+
 section, footer {
     padding: 20px 0px;
 }
