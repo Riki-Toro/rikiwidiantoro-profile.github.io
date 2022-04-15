@@ -19,7 +19,6 @@
 .parallax img {
     filter: grayscale(1);
     opacity: .5 !important;
-    background-size: cover;
 }
 
 .clients img {
