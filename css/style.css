@@ -19,6 +19,7 @@
 .parallax img {
     filter: grayscale(1);
     opacity: .5 !important;
+    background-size: cover;
 }
 
 .clients img {
@@ -31,6 +32,10 @@
 }
 .services .card-panel p {
     margin-bottom: -8px;
+    text-align: justify;
+}
+
+.portfolio p {
     text-align: justify;
 }
 
