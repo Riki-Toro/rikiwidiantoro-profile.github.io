@@ -10,12 +10,11 @@
 .about .about-title {
     text-align: center;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 400;
 }
 .about-p {
     text-align: justify;
     font-size: 16px;
-    font-weight: normal;
 }
 
 .parallax-container {
@@ -42,19 +41,18 @@
 
 .portfolio p {
     text-align: justify;
-    font-weight: normal;
 }
-.portfolio h6 {
-    font-weight: 600;
-}
+
 .portfolio ol li {
-    font-weight: 600;
+    font-weight: 400;
     margin-bottom: 30px;
+}
+.portfolio ol li p {
+    font-weight: 300;
 }
 
 .contact p {
     text-align: justify;
-    font-weight: normal;
 }
 
 .contact hr {
@@ -64,5 +62,4 @@
 
 section, footer {
     padding: 20px 0px;
-    font-weight: normal;
 }
