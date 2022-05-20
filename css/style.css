@@ -5,6 +5,12 @@
     text-shadow: 1px 1px 3px rgba(0,0,0,.5);
 }
 
+
+.nav-wrapper .brand-logo {
+    font-size: 27px;
+    line-height: 60px;
+}
+
 .about img {
     border-radius: 20%;
     /* margin-left: 150px; */
@@ -54,18 +60,21 @@
     font-weight: 300;
 }
 
-.contact p {
+/* .contact p {
     text-align: justify;
 }
 
 .contact hr {
     background-color: white;
     opacity: .8;
-}
+} */
 
 section, footer {
     padding: 20px 0px;
 }
-.contact iframe {
-    margin: -15px auto;
+footer .maps {
+    margin-top: 12px;
 }
+/* .contact iframe {
+    margin: -15px auto;
+} */
