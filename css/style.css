@@ -7,8 +7,8 @@
 
 
 .nav-wrapper .brand-logo {
-    font-size: 25px;
-    line-height: 62px;
+    font-size: 23px;
+    line-height: 63px;
 }
 
 .about img {
@@ -72,8 +72,15 @@
 section, footer {
     padding: 20px 0px;
 }
+footer {
+    text-align: justify;
+}
 footer .maps {
-    margin-top: 12px;
+    margin-top: 13px;
+}
+footer iframe {
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
 }
 /* .contact iframe {
     margin: -15px auto;
