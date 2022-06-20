@@ -92,3 +92,18 @@ footer iframe {
 /* .contact iframe {
     margin: -15px auto;
 } */
+
+.card-action a, .head h5 {
+    text-transform: lowercase !important;
+    font-weight: 500;
+}
+.card-action a:hover {
+    text-decoration: underline;
+    opacity: .85;
+}
+.card-action p {
+    display: inline;
+}
+.card-content h6 {
+    line-height: 25px;
+}
