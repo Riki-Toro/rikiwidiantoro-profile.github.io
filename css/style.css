@@ -93,6 +93,8 @@ footer iframe {
     margin: -15px auto;
 } */
 
+
+/* portofolio project */
 .card-action a, .head h5 {
     text-transform: lowercase !important;
     font-weight: 500;
@@ -106,4 +108,21 @@ footer iframe {
 }
 .card-content h6 {
     line-height: 25px;
+}
+
+.tabs .tab a, .tabs .tab a.active {
+    color:#000;
+    font-weight: 500;
+    font-size: 20px;
+}
+.tabs .tab a:hover {
+    background-color:#eee;
+    color:#000;
+}
+.tabs .tab a:focus.active {
+    background-color:#eee !important;
+    color:#000 !important;
+}
+.tabs .indicator {
+    background-color:#000;
 }
