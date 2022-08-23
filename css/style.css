@@ -100,7 +100,7 @@ footer iframe {
     font-weight: 500;
 }
 .card-action a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     opacity: .85;
 }
 .card-action p {
