@@ -168,6 +168,59 @@
                 <p class="center dark-text"><i>*bootcamp dan kelas pemrograman yang pernah di ikuti</i></p>
             </div>
         </div>
+        <section id="certificate" class="certificate scrollspy grey lighten-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col m6 s12">
+                        <h5 class="header">Horizontal Card</h5>
+                        <div class="card horizontal">
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <p>I am a very simple card. I am good at containing small bits of information.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Detail</a>
+                                    <!-- Modal Structure -->
+                                    <div id="modal1" class="modal">
+                                        <div class="modal-content">
+                                        <h4>Modal Header</h4>
+                                        <p>A bunch of text</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Tutup</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m6 s12">
+                        <div class="card horizontal">
+                            <div class="card-stacked">
+                                <div class="card-content">
+                                    <h5 class="header">Horizontal Card</h5>
+                                    <p>I am a very simple card. I am good at containing small bits of information.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Detail</a>
+                                    <!-- Modal Structure -->
+                                    <div id="modal1" class="modal">
+                                        <div class="modal-content">
+                                        <h4>Modal Header</h4>
+                                        <p>A bunch of text</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <a href="#!" class="modal-close waves-effect waves-green btn-flat">Tutup</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
 
 
         <!-- portofolio -->
@@ -545,6 +598,10 @@
             // tabs
             const tabs = document.querySelector('.tabs');
             M.Tabs.init(tabs);
+
+            // bootcamp & class => card & modals
+            const modal = document.querySelectorAll('.modal');
+            M.Modal.init(modal);
         </script>
     </body>
 </html>
