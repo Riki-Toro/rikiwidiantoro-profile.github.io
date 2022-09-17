@@ -110,6 +110,7 @@ footer iframe {
     line-height: 25px;
 }
 
+
 .tabs .tab a, .tabs .tab a.active {
     color:#000;
     font-weight: 500;
@@ -127,6 +128,24 @@ footer iframe {
     background-color:#000;
 }
 
+
+/* bootcamp & class */
+.bootcamp .tabs .tab a, .bootcamp .tabs .tab a.active {
+    color:#000;
+    font-weight: 500;
+    font-size: 20px;
+}
+.bootcamp .tabs .tab a:hover {
+    background-color:rgb(255, 254, 254);
+    color:#000;
+}
+.bootcamp .tabs .tab a:focus.active {
+    background-color:rgb(255, 255, 255) !important;
+    color:#000 !important;
+}
+.bootcamp .tabs .indicator {
+    background-color:#000;
+}
 /* .card {
     position: relative;
 }
