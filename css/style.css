@@ -154,3 +154,17 @@ footer iframe {
     position: absolute;
     right: 0px;
 } */
+.bootcamp .card-content a {
+    font-size: 13px;
+    /* padding: 3px 15px; */
+    text-transform: lowercase;
+}
+.bootcamp .card-content {
+    padding: 12px;
+    /* height: 60px; */
+}
+.bootcamp .card-content p {
+    /* height: 10px; */
+    /* background-color: aqua; */
+    margin-top: 8px;
+}
