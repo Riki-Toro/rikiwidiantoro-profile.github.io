@@ -19,6 +19,11 @@
 .about .about-title {
     text-align: center;
     font-size: 13px;
+    font-weight: 500;
+}
+.about .about-title-cv {
+    text-align: center;
+    font-size: 14px;
     font-weight: 400;
 }
 .about-p {
@@ -156,7 +161,7 @@ footer iframe {
 } */
 
 
-/* .bootcamp .card-content a {
+.bootcamp .card-content a {
     font-size: 13px;
     text-transform: lowercase;
 }
@@ -165,4 +170,4 @@ footer iframe {
 }
 .bootcamp .card-content p {
     margin-top: 8px;
-} */
+}
